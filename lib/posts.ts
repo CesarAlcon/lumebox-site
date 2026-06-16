@@ -489,7 +489,7 @@ export const POSTS: Post[] = [
     title: 'Volume de leads não é tudo: o que o seu pipeline está escondendo',
     description:
       'Volume de leads subindo e vendas paradas? Entenda o que o seu pipeline está escondendo — e como usar os 4 indicadores certos para alinhar marketing e comercial.',
-    publishedAt: '2026-07-08',
+    publishedAt: '2026-06-17',
     tags: ['Marketing', 'Comercial', 'Dados', 'B2B', 'Funil'],
     author: AUTHORS.cesar,
     excerpt:
@@ -508,7 +508,7 @@ export const POSTS: Post[] = [
     title: 'Por que seu lead some entre o interesse e a reunião — e como resolver',
     description:
       'O lead chegou, demonstrou interesse — e sumiu antes da reunião. Entenda as quatro causas reais desse problema e como marketing e comercial podem resolvê-lo juntos.',
-    publishedAt: '2026-07-22',
+    publishedAt: '2026-06-18',
     tags: ['Marketing', 'Comercial', 'Funil', 'B2B', 'Vendas'],
     author: AUTHORS.cesar,
     excerpt:
@@ -527,7 +527,7 @@ export const POSTS: Post[] = [
     title: 'Proposta enviada não é negócio fechado: o que separa uma boa proposta de uma que fecha',
     description:
       'Sua empresa envia propostas e não fecha? Entenda o que diferencia uma proposta que convence de uma que fecha — e o papel do diagnóstico, do CRM e do marketing nesse processo.',
-    publishedAt: '2026-08-05',
+    publishedAt: '2026-06-19',
     tags: ['Comercial', 'Vendas', 'B2B', 'Estratégia', 'Diagnóstico'],
     author: AUTHORS.cesar,
     excerpt:
@@ -546,7 +546,7 @@ export const POSTS: Post[] = [
     title: 'Os 4 indicadores que marketing e comercial precisam olhar juntos — e por que a maioria das empresas não mede nenhum deles',
     description:
       'A maioria das empresas mede marketing de um lado e comercial do outro. Conheça os 4 indicadores compartilhados que criam previsibilidade de receita quando os dois times olham para o mesmo painel.',
-    publishedAt: '2026-08-19',
+    publishedAt: '2026-06-20',
     tags: ['Marketing', 'Comercial', 'Dados', 'B2B', 'Estratégia', 'Funil'],
     author: AUTHORS.cesar,
     excerpt:
@@ -559,36 +559,6 @@ export const POSTS: Post[] = [
       'Previsibilidade de receita não é meta, é consequência de processo com indicadores compartilhados.',
     ],
     content: ARTICLE_5_CONTENT,
-  },
-  {
-    slug: 'como-estruturar-crm-para-vendas-b2b',
-    title: 'Como estruturar um CRM para acelerar o ciclo de vendas B2B',
-    description:
-      'A maioria das empresas usa o CRM apenas como agenda. Veja como transformá-lo em inteligência de vendas com o Bitrix24.',
-    publishedAt: '2026-09-02',
-    tags: ['CRM', 'Vendas', 'B2B', 'Bitrix24'],
-    author: AUTHORS.cesar,
-    excerpt:
-      'A maioria das empresas usa o CRM apenas como agenda. Veja como transformá-lo em inteligência de vendas.',
-    wordCount: 0,
-    conclusions: [],
-    content: '',
-    draft: true,
-  },
-  {
-    slug: 'diagnostico-antes-do-investimento',
-    title: 'Diagnóstico antes de investimento: por que 80% das empresas erram a sequência',
-    description:
-      'Investir em marketing sem diagnóstico é como medicar sem exame. Por que a sequência importa — e como acertar.',
-    publishedAt: '2026-09-16',
-    tags: ['Estratégia', 'Diagnóstico', 'Marketing'],
-    author: AUTHORS.cesar,
-    excerpt:
-      'Investir em marketing sem diagnóstico é como medicar sem exame. Por que a sequência importa — e como acertar.',
-    wordCount: 0,
-    conclusions: [],
-    content: '',
-    draft: true,
   },
 ]
 

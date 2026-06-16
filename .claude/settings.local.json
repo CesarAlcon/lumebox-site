@@ -5,7 +5,9 @@
       "Bash(npm run *)",
       "Bash(node -e \"const mammoth = require\\('mammoth'\\); mammoth.convertToHtml\\({path: './assets/lumebox/artigos_lumebox_2_a_5.docx'}\\).then\\(r => console.log\\(r.value\\)\\).catch\\(e => console.error\\(e\\)\\)\")",
       "Bash(node -e ' *)",
-      "Bash(git add *)"
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git push *)"
     ]
   }
 }
