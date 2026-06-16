@@ -120,21 +120,15 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="font-sans text-xs text-white/20 text-center sm:text-left">
-            © 2025 Lumebox Treinamento e Desenvolvimento Profissional Gerencial Ltda
+            © 2026 Lumebox Treinamento e Desenvolvimento Profissional Gerencial Ltda
           </p>
           <div className="flex items-center gap-6">
-            <a
-              href="#"
-              className="font-sans text-xs text-white/20 hover:text-white/40 transition-colors duration-150"
-            >
+            <span className="font-sans text-xs text-white/20">
               Política de Privacidade
-            </a>
-            <a
-              href="#"
-              className="font-sans text-xs text-white/20 hover:text-white/40 transition-colors duration-150"
-            >
+            </span>
+            <span className="font-sans text-xs text-white/20">
               Termos de Uso
-            </a>
+            </span>
           </div>
         </div>
 

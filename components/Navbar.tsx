@@ -12,10 +12,10 @@ const NAV_LOGO_W = Math.round((logoMarca.width / logoMarca.height) * NAV_LOGO_H)
 const WA_LINK = 'https://wa.me/5511914887343'
 
 const NAV_ITEMS = [
-  { label: 'Serviços',          href: '#servicos' },
-  { label: 'Por que a LumeBox', href: '#qualificacao' },
+  { label: 'Serviços',          href: '/#servicos' },
+  { label: 'Por que a LumeBox', href: '/#qualificacao' },
   { label: 'Publicações',        href: '/blog' },
-  { label: 'FAQ',               href: '#faq' },
+  { label: 'FAQ',               href: '/#faq' },
 ]
 
 export default function Navbar() {
@@ -40,7 +40,7 @@ export default function Navbar() {
       <div className="max-w-6xl mx-auto px-4 md:px-8 h-16 flex items-center justify-between gap-8">
 
         {/* Logo */}
-        <a href="#" aria-label="LumeBox — início" className="shrink-0">
+        <a href="/" aria-label="LumeBox — início" className="shrink-0">
           <Image
             src={logoMarca}
             alt="LumeBox"
