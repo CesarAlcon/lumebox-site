@@ -168,8 +168,6 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
                 </a>
               </div>
 
-              {/* Related */}
-              <RelatedPosts posts={related} />
             </div>
 
             {/* Sticky sidebar */}
@@ -180,6 +178,13 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
           </div>
         </div>
       </main>
+
+      {/* ── Related posts — full-width ── */}
+      <section className="w-full bg-[#F9FAFB] py-20">
+        <div className="max-w-6xl mx-auto px-4 md:px-8">
+          <RelatedPosts posts={related} />
+        </div>
+      </section>
 
       {/* Mobile sticky CTA */}
       <div className="lg:hidden fixed bottom-0 inset-x-0 z-40 bg-white border-t border-neutral-200 px-4 py-3">

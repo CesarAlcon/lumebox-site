@@ -33,8 +33,8 @@ export default function RelatedPosts({ posts }: { posts: Post[] }) {
   if (published.length === 0) return null
 
   return (
-    <section className="mt-24 pt-20 border-t border-neutral-100">
-      <h2 className="font-display text-3xl md:text-4xl font-bold text-[#1A1A1A] leading-[1.15] mb-14">
+    <div>
+      <h2 className="font-display text-3xl md:text-4xl font-bold text-[#1A1A1A] leading-[1.15] mb-12">
         Continue lendo.
       </h2>
 
@@ -88,6 +88,6 @@ export default function RelatedPosts({ posts }: { posts: Post[] }) {
           </motion.div>
         ))}
       </motion.div>
-    </section>
+    </div>
   )
 }
