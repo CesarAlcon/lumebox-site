@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import Image from 'next/image'
 import { motion } from 'framer-motion'
 import { type Post, formatDate } from '@/lib/posts'
 
@@ -52,7 +53,18 @@ export default function RelatedPosts({ posts }: { posts: Post[] }) {
               className="group block h-full focus:outline-none focus-visible:ring-2 focus-visible:ring-lume-yellow rounded-card"
             >
               <article className="flex flex-col bg-white border border-neutral-200 rounded-card overflow-hidden min-h-[380px] h-full transition-all duration-250 group-hover:shadow-[0_8px_30px_rgba(0,0,0,0.08)] group-hover:scale-[1.02]">
-                <CoverPlaceholder tags={post.tags} />
+                {post.coverImage ? (
+                  <div className="h-[200px] relative overflow-hidden">
+                    <Image
+                      src={post.coverImage}
+                      alt={post.title}
+                      fill
+                      className="object-cover"
+                    />
+                  </div>
+                ) : (
+                  <CoverPlaceholder tags={post.tags} />
+                )}
 
                 <div className="flex flex-col gap-4 p-6 flex-1">
                   <div className="flex flex-wrap gap-2">

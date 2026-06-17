@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
+import Image from 'next/image'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import AuthorBlock from '@/components/blog/AuthorBlock'
@@ -138,6 +139,21 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
             wordCount={post.wordCount}
           />
         </header>
+
+        {/* ── Cover image ── */}
+        {post.coverImage && (
+          <div className="max-w-6xl mx-auto px-4 md:px-8 pt-10 md:pt-14">
+            <div className="relative aspect-[21/9] rounded-card overflow-hidden">
+              <Image
+                src={post.coverImage}
+                alt={post.title}
+                fill
+                className="object-cover"
+                priority
+              />
+            </div>
+          </div>
+        )}
 
         {/* ── Two-column layout ── */}
         <div className="max-w-6xl mx-auto px-4 md:px-8 py-14 md:py-20">

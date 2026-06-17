@@ -18,6 +18,7 @@ export type Post = {
   wordCount: number
   conclusions: string[]
   content: string           // raw HTML
+  coverImage?: string
   draft?: boolean
 }
 
@@ -482,6 +483,7 @@ export const POSTS: Post[] = [
       'Trocar de agência sem estratégia é trocar o motorista sem saber em qual pista você está.',
       'Crescimento previsível começa quando marketing e comercial medem o mesmo funil.',
     ],
+    coverImage: '/images/blog/capa-artigo-1.png',
     content: ARTICLE_1_CONTENT,
   },
   {
@@ -501,6 +503,7 @@ export const POSTS: Post[] = [
       'O feedback semanal do comercial sobre qualidade dos leads precisa virar dado para ajustar segmentação e mensagem.',
       'Antes de escalar volume, defina o ICP com base em quem fecha — não em quem você imagina que compraria.',
     ],
+    coverImage: '/images/blog/capa-artigo-2.png',
     content: ARTICLE_2_CONTENT,
   },
   {
@@ -520,6 +523,7 @@ export const POSTS: Post[] = [
       'Marketing tem papel direto em três dos quatro problemas — mensagem, público e prova.',
       'Contratar mais vendedores com a mesma mensagem fraca só escala o problema.',
     ],
+    coverImage: '/images/blog/capa-artigo-3.png',
     content: ARTICLE_3_CONTENT,
   },
   {
@@ -539,6 +543,7 @@ export const POSTS: Post[] = [
       'Marketing tem papel direto no fechamento: cases segmentados, materiais de quebra de objeção e provas de autoridade.',
       'Desconto não é estratégia — é sinal de que o valor não foi construído antes da proposta chegar.',
     ],
+    coverImage: '/images/blog/capa-artigo-4.png',
     content: ARTICLE_4_CONTENT,
   },
   {
@@ -558,6 +563,7 @@ export const POSTS: Post[] = [
       'O gargalo do funil raramente está onde a empresa acha — só aparece quando os dois times olham para o mesmo número.',
       'Previsibilidade de receita não é meta, é consequência de processo com indicadores compartilhados.',
     ],
+    coverImage: '/images/blog/capa-artigo-5.png',
     content: ARTICLE_5_CONTENT,
   },
 ]

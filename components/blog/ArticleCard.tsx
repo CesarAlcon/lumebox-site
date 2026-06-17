@@ -44,7 +44,18 @@ export default function ArticleCard({ post }: { post: Post }) {
       variants={cardVariants}
       className={`group flex flex-col bg-white border border-neutral-100 rounded-card overflow-hidden hover:border-lume-yellow transition-colors duration-250 ${isDraft ? 'opacity-60' : ''}`}
     >
-      <CoverPlaceholder tags={post.tags} />
+      {post.coverImage ? (
+        <div className="aspect-[16/9] relative overflow-hidden">
+          <Image
+            src={post.coverImage}
+            alt={post.title}
+            fill
+            className="object-cover"
+          />
+        </div>
+      ) : (
+        <CoverPlaceholder tags={post.tags} />
+      )}
 
       <div className="flex flex-col gap-4 p-6 flex-1">
         {/* Tags */}
